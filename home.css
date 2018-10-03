@@ -1,0 +1,79 @@
+body {
+    background-color: white; 
+    background-image: url("reeeeee.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+h1 {
+    color:white;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    color:white;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3,h4 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+li,p,table {
+    font-family: 'Kadwa', serif;
+}
+
+#search li {
+    float:left;
+}
+
+#search {
+    list-style-type:none;
+    margin:-8px;
+    padding:0;
+    overflow:hidden;
+    background-color:black;
+}
+
+#search li a {
+    display:block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    color:white;
+}
+
+#search li a:hover{
+    background-color:gray;
+}
+
+#content{
+    border-color:black;
+    border-style:solid;
+    width:68%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:16px;
+    text-align:center;
+    padding-bottom:30px;
+}
+table {
+    margin:auto;
+}
+
+#content ul, #content ol {
+    width:45%;
+    margin:auto;
+}
+
+
+
